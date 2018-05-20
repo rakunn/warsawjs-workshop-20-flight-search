@@ -1,0 +1,23 @@
+.flight {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    border: 2px solid #000;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 16px auto;
+    max-width: 500px;
+    padding: 16px;
+  }
+  
+  .flight p {
+    margin: 0;
+  }
+  
+  .path-back p {
+    text-align: right;
+  }
+  
+  .price {
+    display: flex;
+    align-items: center;
+  }
